@@ -22,27 +22,27 @@ namespace YetAnotherAppWindowsPhone
     {
       InitializeComponent();
 
-      Monkeys.Add("/Assets/a.jpg");
-      Monkeys.Add("/Assets/b.jpg");
-      Monkeys.Add("/Assets/c.jpg");
-      Monkeys.Add("/Assets/d.jpg");
-      Monkeys.Add("/Assets/e.jpg");
-      Monkeys.Add("/Assets/f.jpg");
-      Monkeys.Add("/Assets/g.jpg");
-      Monkeys.Add("/Assets/h.jpg");
-      Monkeys.Add("/Assets/i.jpg");
-      Monkeys.Add("/Assets/j.jpg");
-      Monkeys.Add("/Assets/k.jpg");
-      Monkeys.Add("/Assets/l.jpg");
-      Monkeys.Add("/Assets/m.jpg");
-      Monkeys.Add("/Assets/n.jpg");
-      Monkeys.Add("/Assets/o.jpg");
-      Monkeys.Add("/Assets/p.jpg");
-      Monkeys.Add("/Assets/q.jpg");
-      Monkeys.Add("/Assets/r.jpg");
-      Monkeys.Add("/Assets/s.jpg");
-      Monkeys.Add("/Assets/t.jpg");
-      Monkeys.Add("/Assets/u.jpg");
+      Monkeys.Add("Assets/a.jpg");
+      Monkeys.Add("Assets/b.jpg");
+      Monkeys.Add("Assets/c.jpg");
+      Monkeys.Add("Assets/d.jpg");
+      Monkeys.Add("Assets/e.jpg");
+      Monkeys.Add("Assets/f.jpg");
+      Monkeys.Add("Assets/g.jpg");
+      Monkeys.Add("Assets/h.jpg");
+      Monkeys.Add("Assets/i.jpg");
+      Monkeys.Add("Assets/j.jpg");
+      Monkeys.Add("Assets/k.jpg");
+      Monkeys.Add("Assets/l.jpg");
+      Monkeys.Add("Assets/m.jpg");
+      Monkeys.Add("Assets/n.jpg");
+      Monkeys.Add("Assets/o.jpg");
+      Monkeys.Add("Assets/p.jpg");
+      Monkeys.Add("Assets/q.jpg");
+      Monkeys.Add("Assets/r.jpg");
+      Monkeys.Add("Assets/s.jpg");
+      Monkeys.Add("Assets/t.jpg");
+      Monkeys.Add("Assets/u.jpg");
       DataContext = Monkeys;
 
       LongList.SelectionChanged += LongList_SelectionChanged;
